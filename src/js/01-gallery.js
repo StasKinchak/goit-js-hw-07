@@ -50,6 +50,6 @@ function onCardClick(event) {
         console.log(event.code);
         if (event.code === 'Escape') {
             instance.close();
-        }
+        };
     }
 }
